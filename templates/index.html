@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Điều khiển Servo</title>
+</head>
+<body>
+    <h1>Điều khiển Servo bằng Web</h1>
+    <form action="/move" method="post">
+        <label>Góc (0-180°): </label>
+        <input type="number" name="angle" min="0" max="180" required>
+        <input type="submit" value="Quay Servo">
+    </form>
+</body>
+</html>
