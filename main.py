@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 import time
 
 # --- Cấu hình GPIO cho servo ---
-servo_pin = 17
+servo_pin = 27
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(servo_pin, GPIO.OUT)
 
